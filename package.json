@@ -1,0 +1,16 @@
+{
+  "name": "entrega-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Serres",
+  "license": "ISC",
+  "description": "Proyecto entrega 3 para CoderHouse",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
