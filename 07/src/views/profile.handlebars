@@ -1,0 +1,11 @@
+<div>
+    <h1>¡Bienvenido!</h1>
+    <div>
+        {{#if user.role}}
+            <h2>Usted es admin de la pagina</h2>
+        {{/if}}
+    </div>
+    <p>{{user.name}}</p>
+    <p>{{user.email}}</p>
+    <a href="/api/sessions/logout">Cerrar sessión</a>
+</div>
